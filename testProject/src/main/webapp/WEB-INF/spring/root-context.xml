@@ -10,14 +10,14 @@
 	  <!-- Root Context: defines shared resources visible to all other web components -->
    <bean id="hikariConfig" class="com.zaxxer.hikari.HikariConfig">
    <!-- 일반 DB접속 정보 -->
-<!--       <property name="driverClassName" value="oracle.jdbc.driver.OracleDriver"></property> -->
-<!--       <property name="jdbcUrl" value="jdbc:oracle:thin:@localhost:1521:XE"></property> -->
+      <property name="driverClassName" value="oracle.jdbc.driver.OracleDriver"></property>
+      <property name="jdbcUrl" value="jdbc:oracle:thin:@localhost:1521:XE"></property>
       
       <!-- 얘는 log4jdbc설치해서 어떻게 db에서 데이터 가져오고 등을 콘솔창에 보여주는..? -->
-      <property name="driverClassName"
-         value="net.sf.log4jdbc.sql.jdbcapi.DriverSpy"></property>
-      <property name="jdbcUrl"
-         value="jdbc:log4jdbc:oracle:thin:@localhost:1521:XE"></property>
+<!--       <property name="driverClassName" -->
+<!--          value="net.sf.log4jdbc.sql.jdbcapi.DriverSpy"></property> -->
+<!--       <property name="jdbcUrl" -->
+<!--          value="jdbc:log4jdbc:oracle:thin:@localhost:1521:XE"></property> -->
       <property name="username" value="STUDY"></property>
       <property name="password" value="STUDY"></property>
    </bean>
