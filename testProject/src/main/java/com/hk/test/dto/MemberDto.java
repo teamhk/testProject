@@ -4,7 +4,6 @@ import java.util.Date;
 
 public class MemberDto {
 	int mno;
-	int mmno;
 	String mname;
 	String email;
 	String pwd;
