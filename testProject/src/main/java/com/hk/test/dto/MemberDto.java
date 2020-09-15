@@ -2,7 +2,7 @@ package com.hk.test.dto;
 
 import java.util.Date;
 
-public class RegisterDto {
+public class MemberDto {
 	int mno;
 	String mname;
 	String email;
